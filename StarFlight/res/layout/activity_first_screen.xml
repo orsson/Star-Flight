@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom|right" >
+    
+<ImageView
+    android:id="@+id/mainMenuImage"
+    android:src="@drawable/tlo6"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">  
+</ImageView>
+
+<RelativeLayout
+    android:id="@+id/buttons"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="20dp"
+    android:gravity="bottom"
+    android:orientation="horizontal" >
+
+<ImageButton
+    android:id="@+id/btnStart"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:clickable="true"
+    android:src="@drawable/startselector" />
+
+<ImageButton
+    android:id="@+id/btnSelect"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:clickable="true"
+    android:src="@drawable/ctrlselector" />
+    
+</RelativeLayout>
+
+<ImageButton
+    android:id="@+id/btnExit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:clickable="true"
+    android:src="@drawable/exitselector" />
+
+</FrameLayout>

@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<ImageView
+    android:id="@+id/splashScreenImage"
+    android:src="@drawable/tlo6"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">  
+</ImageView>
+
+
+</FrameLayout>
